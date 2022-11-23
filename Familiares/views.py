@@ -16,7 +16,7 @@ def familiar (request):
     "n2":familiar2.nombre, "ape2":familiar2.apellido, "ed2":familiar2.edad, "nac2":familiar2.nacimiento,
     "n3":familiar3.nombre, "ape3":familiar3.apellido, "ed3":familiar3.edad, "nac3":familiar3.nacimiento}
 
-    plantilla=loader.get_template('template1.html')
+    plantilla=loader.get_template('templates.html')
 
     documento=plantilla.render(dic)
 

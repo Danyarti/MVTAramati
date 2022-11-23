@@ -55,7 +55,7 @@ ROOT_URLCONF = 'MVTaramati.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["../MVTaramati/template"],
+        'DIRS': ["../MVTaramati/Familiares/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
